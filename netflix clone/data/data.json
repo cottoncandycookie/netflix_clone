@@ -1,0 +1,24 @@
+{
+    "movies": [
+        {"title": "vi",
+        "image":"img/vi.jpg" 
+        },
+        {"title": "jinx",
+        "image":"img/jinx.jpg" 
+        },
+        {"title": "vi-jinx1",
+        "image":"img/vi-jinx1.jpg" 
+        },
+        {"title": "vi-jinx2",
+        "image":"img/vi-jinx2.jpg" 
+        },
+        {"title": "Jinx-isha",
+        "image":"img/Jinx-isha.jpg" 
+        },
+        {"title": "caitlyn",
+        "image":"img/caitlyn.jpg" 
+        }
+        
+    ]
+
+}

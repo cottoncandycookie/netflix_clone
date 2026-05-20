@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/29476d3719.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- navbar -->
+    <nav>   
+        <div class="navbar">
+            <div class="navbar__logo">
+                <img src="img/Netflix_Logo.png" alt="" class="logo">
+
+            </div>
+            <ul class="navbar__menu">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Shows</a>
+                </li>
+                <li>
+                    <a href="">Movies</a>
+                </li>
+                <li>
+                    <a href="">Games</a>
+                </li>
+                <li>
+                    <a href="">New & Popular</a>
+                </li>
+                <li>
+                    <a href="">My List</a>
+                </li>
+                <li>
+                    <a href="">Browse by Languages</a>
+                </li>
+                <li class="menu__highlight">
+                    <a href="">Language Reactor Catalogue</a>
+                </li>
+                
+            </ul>
+        
+            <div class="menu__trigger">
+                    <a href="#" class="navbar__toggleBtn">
+                    Browse
+                    <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown">
+                        <li>Home</li>
+                        <li>Shows</li>
+                        <li>Movies</li>
+                        <li>Games</li>
+                        <li>New & Popular</li>
+                        <li>My List</li>
+                        <li>Browse by Languages</li>
+                    </ul>
+
+                </div>
+            <!--Right side  -->
+            <div class="navbar__right">
+                <div class="navbar__search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    
+                </div>
+                <div class="navbar__category">
+                    <button class="category">Kids</button>
+                </div>
+                <div class="navbar__notifications">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="navbar__profile">
+                    <img src="img/vi_profile.png" alt="" class="profile">
+                </div>
+                <div class="navbar__more">
+                    <i class="fa-solid fa-caret-down more__icon"></i>
+                    <ul class="more__dropdown">
+                        <li>
+                            <img src="img/jinx_profile.png" alt="">
+                            <span class="profile__name">name</span>
+                        </li>
+                        <li>
+                            <img src="img/kids.png" alt="">
+                            <span class="profile__name">kids</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav> 
+
+<!-- background img -->
+    <section class="hero">
+        <video class="hero__video"
+               autoplay
+               muted
+               loop
+               playsinline
+        >
+                <source src="img/official trailer.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero__overlay"></div>
+
+        
+    
+
+<!-- hero content -->
+        <div class="hero__content">
+            <div class="hero__title">
+                <img src="img/Arcane_Title_Text.png" alt="" class="title__text"></div>
+
+            <div class="hero__meta">
+                <div class="hero__badge"></div>
+                <div class="hero__rank" data-rank="1"></div>
+                <div class="hero__sub">in TV Shows Today</div> 
+            </div>
+            <div class="hero__description">
+                Vi and Cairlyn wrestle with how best to respond in the wake of a terrible tragedy that claims lives and escalates tensions between the twin cities.
+            </div>
+            
+<!-- play and more info -->
+            <button class="btn play__btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Play</span> 
+            </button>
+
+            <button class="btn more__info">
+                <i class="fa-solid fa-info"></i>
+                <span>More Info</span>
+            </button>
+            
+
+        </div>   
+<!-- action btn and age rating -->
+        <div class="hero__overlay__right">
+            <button class="btn replay">
+                <i class="fa-solid fa-arrow-rotate-right"></i>  
+            </button>
+            <span class="age__rating">15</span>
+            </div>
+    </section>
+
+    <div class="row__wrapper">
+        <span class="row__title">My List</span>
+        <button class="row__btn left">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <ul class="row__items">
+            <li class="row__item">
+                <img src="#" alt="" class="row__thumbnail">
+
+        </li>
+        </ul>
+
+
+
+
+        <button class="row__btn right">
+            <i class="fa-solid fa-angle-right"></i>
+            
+        </button>
+    </div>
+
+
+
+
+
+</body>
+</html>
